@@ -11,7 +11,7 @@ import {
   Button,
   Image,
 } from '@chakra-ui/react';
-import jvg from './jvg.PNG';
+import jvg from './jvg.png';
 //TODO: Cijfertjes aan de bovenkant van de box groen/rood/neutraal zodat je terug kan gaan
 //TODO: Uitslag stemwijzer klopt niet.
 
