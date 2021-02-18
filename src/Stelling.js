@@ -24,7 +24,7 @@ const Stellingen = [
   'Mensen die hun leven als voltooid zien, hebben het recht op euthanasie.',
   'Vrouwen moeten de abortuspil bij hun huisarts kunnen halen.',
   'Vrouwen bepalen zelf wanneer zij in de zwangerschap voor een abortus kiezen.',
-  'Er moet meer medisch-wetenschappelijk onderzoek naar voortplantingstechnieken en het voorkomen van ernstige genetische afwijkingen.',
+  'Er moet meer medisch-wetenschappelijk onderzoek komen naar voortplantingstechnieken en het voorkomen van ernstige genetische afwijkingen.',
   'Er wordt meer geïnvesteerd in geestelijke gezondheidszorg op wijkniveau.',
   'Verantwoordelijkheid voor jeugdzorg komt bij de Rijksoverheid te liggen.',
   'Gezondheid van mensen moet centraal komen te staan in klimaatbeleid.',

@@ -46,6 +46,15 @@ function App() {
             <VStack spacing={8}>
               {/* Voor wie dit leest, I'm sorry voor deze ongelovelijke warboel*/}
 
+              {/* Navigatie stellingen*/}
+              <HStack wrap="wrap">
+                {stelling < 31 &&
+                  stelling > 0 &&
+                  Stellingen.map((c, i) => (
+                    <button onClick={() => setStelling(i + 1)}>{i + 1}</button>
+                  ))}
+              </HStack>
+
               {/* Headings*/}
               {stelling === 0 && <Heading>Gezondheidswijzer</Heading>}
               {stelling < 31 && stelling > 0 && (
@@ -130,7 +139,7 @@ function App() {
                     <AccordionButton>
                       Dit vinden de partijen: <AccordionIcon />
                     </AccordionButton>
-                    <AccordionPanel pb={4}>
+                    <AccordionPanel pb={4} fontSize="xs">
                       <VStack spacing={4}>
                         {data
                           .map(x => ({

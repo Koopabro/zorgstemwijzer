@@ -398,7 +398,8 @@ const data = [
       {
         stelling: 5,
         antw: 1,
-        toelichting: 'Niet af te leiden uit het verkiezingsprogramma.',
+        toelichting:
+          'Dit onderwerp wordt niet in het verkiezingsprogramma genoemd.',
       },
       {
         stelling: 6,
@@ -409,12 +410,14 @@ const data = [
       {
         stelling: 7,
         antw: 1,
-        toelichting: 'Niet af te leiden uit het verkiezingsprogramma.',
+        toelichting:
+          'Dit onderwerp wordt niet in het verkiezingsprogramma genoemd.',
       },
       {
         stelling: 8,
         antw: 1,
-        toelichting: 'Niet af te leiden uit het verkiezingsprogramma.',
+        toelichting:
+          'Dit onderwerp wordt niet in het verkiezingsprogramma genoemd.',
       },
       {
         stelling: 9,
@@ -431,7 +434,8 @@ const data = [
       {
         stelling: 11,
         antw: 1,
-        toelichting: 'Niet af te leiden uit het verkiezingsprogramma.',
+        toelichting:
+          'Dit onderwerp wordt niet in het verkiezingsprogramma genoemd.',
       },
       {
         stelling: 12,
@@ -442,12 +446,14 @@ const data = [
       {
         stelling: 13,
         antw: 1,
-        toelichting: 'Niet af te leiden uit het verkiezingsprogramma.',
+        toelichting:
+          'Dit onderwerp wordt niet in het verkiezingsprogramma genoemd.',
       },
       {
         stelling: 14,
         antw: 1,
-        toelichting: 'Niet af te leiden uit het verkiezingsprogramma.',
+        toelichting:
+          'Dit onderwerp wordt niet in het verkiezingsprogramma genoemd.',
       },
       {
         stelling: 15,
@@ -488,12 +494,14 @@ const data = [
       {
         stelling: 21,
         antw: 1,
-        toelichting: 'Niet af te leiden uit het verkiezingsprogramma.',
+        toelichting:
+          'Dit onderwerp wordt niet in het verkiezingsprogramma genoemd.',
       },
       {
         stelling: 22,
         antw: 1,
-        toelichting: 'Niet af te leiden uit het verkiezingsprogramma.',
+        toelichting:
+          'Dit onderwerp wordt niet in het verkiezingsprogramma genoemd.',
       },
       {
         stelling: 23,
@@ -521,7 +529,8 @@ const data = [
       {
         stelling: 27,
         antw: 1,
-        toelichting: 'Niet af te leiden uit het verkiezingsprogramma.',
+        toelichting:
+          'Dit onderwerp wordt niet in het verkiezingsprogramma genoemd.',
       },
       {
         stelling: 28,
@@ -896,7 +905,7 @@ const data = [
         stelling: 28,
         antw: 2,
         toelichting:
-          'Specialistische jeugdzorg, jeugdbescherming en jeugdreclassering willen we regionaal organiseren onder regie en met financiering van het Rijk. Basis jeugdzorg wordt door gemeenten uitgevoerd: https://www.parlementairemonitor.nl/9353000/1/j9vvij5epmj1ey0/vl3pqi4enyxe',
+          'Specialistische jeugdzorg, jeugdbescherming en jeugdreclassering willen we regionaal organiseren onder regie en met financiering van het Rijk. Basis jeugdzorg wordt door gemeenten uitgevoerd: parlementairemonitor.nl/9353000/1/j9vvij5epmj1ey0/vl3pqi4enyxe',
       },
       {
         stelling: 29,
@@ -1592,7 +1601,8 @@ const data = [
       {
         stelling: 21,
         antw: 1,
-        toelichting: 'Niet af te leiden uit het verkiezingsprogramma.',
+        toelichting:
+          'Dit onderwerp wordt niet in het verkiezingsprogramma genoemd.',
       },
       {
         stelling: 22,
@@ -1673,22 +1683,26 @@ const data = [
       {
         stelling: 4,
         antw: 1,
-        toelichting: 'Wordt niets over gezegd',
+        toelichting:
+          'Dit onderwerp wordt niet in het verkiezingsprogramma genoemd.',
       },
       {
         stelling: 5,
         antw: 1,
-        toelichting: 'Wordt niets over gezegd',
+        toelichting:
+          'Dit onderwerp wordt niet in het verkiezingsprogramma genoemd.',
       },
       {
         stelling: 6,
         antw: 1,
-        toelichting: 'Wordt niets over gezegd',
+        toelichting:
+          'Dit onderwerp wordt niet in het verkiezingsprogramma genoemd.',
       },
       {
         stelling: 7,
         antw: 2,
-        toelichting: 'Geen uitleg',
+        toelichting:
+          'Dit onderwerp wordt niet in het verkiezingsprogramma genoemd.',
       },
       {
         stelling: 8,
@@ -1699,7 +1713,8 @@ const data = [
       {
         stelling: 9,
         antw: 1,
-        toelichting: 'Wordt niets over gezegd',
+        toelichting:
+          'Dit onderwerp wordt niet in het verkiezingsprogramma genoemd.',
       },
       {
         stelling: 10,
@@ -1717,7 +1732,7 @@ const data = [
         stelling: 12,
         antw: 1,
         toelichting:
-          'Wordt gezegd dat DENK de ondersteuning van mantelzorgers vergroten, maar niet duidelijk of dit financieel is',
+          'Wordt gezegd dat DENK de ondersteuning van mantelzorgers wil vergroten, maar het is niet duidelijk of dit financieel is',
       },
       {
         stelling: 13,
@@ -1740,7 +1755,8 @@ const data = [
       {
         stelling: 16,
         antw: 1,
-        toelichting: 'Wordt niets over gezegd',
+        toelichting:
+          'Dit onderwerp wordt niet in het verkiezingsprogramma genoemd.',
       },
       {
         stelling: 17,
@@ -1750,7 +1766,8 @@ const data = [
       {
         stelling: 18,
         antw: 1,
-        toelichting: 'Wordt niets over gezegd',
+        toelichting:
+          'Dit onderwerp wordt niet in het verkiezingsprogramma genoemd.',
       },
       {
         stelling: 19,
@@ -1767,7 +1784,8 @@ const data = [
       {
         stelling: 21,
         antw: 1,
-        toelichting: 'Wordt niets over gezegd',
+        toelichting:
+          'Dit onderwerp wordt niet in het verkiezingsprogramma genoemd.',
       },
       {
         stelling: 22,
@@ -1778,22 +1796,26 @@ const data = [
       {
         stelling: 23,
         antw: 1,
-        toelichting: 'Wordt niets over gezegd',
+        toelichting:
+          'Dit onderwerp wordt niet in het verkiezingsprogramma genoemd.',
       },
       {
         stelling: 24,
         antw: 1,
-        toelichting: 'Wordt niets over gezegd',
+        toelichting:
+          'Dit onderwerp wordt niet in het verkiezingsprogramma genoemd.',
       },
       {
         stelling: 25,
         antw: 1,
-        toelichting: 'Wordt niets over gezegd',
+        toelichting:
+          'Dit onderwerp wordt niet in het verkiezingsprogramma genoemd.',
       },
       {
         stelling: 26,
         antw: 1,
-        toelichting: 'Wordt niets over gezegd',
+        toelichting:
+          'Dit onderwerp wordt niet in het verkiezingsprogramma genoemd.',
       },
       {
         stelling: 27,
@@ -1804,7 +1826,8 @@ const data = [
       {
         stelling: 28,
         antw: 1,
-        toelichting: 'Wordt niets over gezegd',
+        toelichting:
+          'Dit onderwerp wordt niet in het verkiezingsprogramma genoemd.',
       },
       {
         stelling: 29,
@@ -1815,7 +1838,8 @@ const data = [
       {
         stelling: 30,
         antw: 1,
-        toelichting: 'Wordt niets over gezegd',
+        toelichting:
+          'Dit onderwerp wordt niet in het verkiezingsprogramma genoemd.',
       },
     ],
   },
@@ -1825,52 +1849,62 @@ const data = [
       {
         stelling: 1,
         antw: 1,
-        toelichting: 'Niet af te leiden uit het verkiezingsprogramma.',
+        toelichting:
+          'Dit onderwerp wordt niet in het verkiezingsprogramma genoemd.',
       },
       {
         stelling: 2,
         antw: 1,
-        toelichting: 'Niet af te leiden uit het verkiezingsprogramma.',
+        toelichting:
+          'Dit onderwerp wordt niet in het verkiezingsprogramma genoemd.',
       },
       {
         stelling: 3,
         antw: 1,
-        toelichting: 'Niet af te leiden uit het verkiezingsprogramma.',
+        toelichting:
+          'Dit onderwerp wordt niet in het verkiezingsprogramma genoemd.',
       },
       {
         stelling: 4,
         antw: 1,
-        toelichting: 'Niet af te leiden uit het verkiezingsprogramma.',
+        toelichting:
+          'Dit onderwerp wordt niet in het verkiezingsprogramma genoemd.',
       },
       {
         stelling: 5,
         antw: 1,
-        toelichting: 'Niet af te leiden uit het verkiezingsprogramma.',
+        toelichting:
+          'Dit onderwerp wordt niet in het verkiezingsprogramma genoemd.',
       },
       {
         stelling: 6,
         antw: 1,
-        toelichting: 'Niet af te leiden uit het verkiezingsprogramma.',
+        toelichting:
+          'Dit onderwerp wordt niet in het verkiezingsprogramma genoemd.',
       },
       {
         stelling: 7,
         antw: 1,
-        toelichting: 'Niet af te leiden uit het verkiezingsprogramma.',
+        toelichting:
+          'Dit onderwerp wordt niet in het verkiezingsprogramma genoemd.',
       },
       {
         stelling: 8,
         antw: 1,
-        toelichting: 'Niet af te leiden uit het verkiezingsprogramma.',
+        toelichting:
+          'Dit onderwerp wordt niet in het verkiezingsprogramma genoemd.',
       },
       {
         stelling: 9,
         antw: 1,
-        toelichting: 'Niet af te leiden uit het verkiezingsprogramma.',
+        toelichting:
+          'Dit onderwerp wordt niet in het verkiezingsprogramma genoemd.',
       },
       {
         stelling: 10,
         antw: 1,
-        toelichting: 'Niet af te leiden uit het verkiezingsprogramma.',
+        toelichting:
+          'Dit onderwerp wordt niet in het verkiezingsprogramma genoemd.',
       },
       {
         stelling: 11,
@@ -1892,7 +1926,8 @@ const data = [
       {
         stelling: 14,
         antw: 1,
-        toelichting: 'Niet af te leiden uit het verkiezingsprogramma.',
+        toelichting:
+          'Dit onderwerp wordt niet in het verkiezingsprogramma genoemd.',
       },
       {
         stelling: 15,
@@ -1920,17 +1955,20 @@ const data = [
       {
         stelling: 19,
         antw: 1,
-        toelichting: 'Niet af te leiden uit het verkiezingsprogramma.',
+        toelichting:
+          'Dit onderwerp wordt niet in het verkiezingsprogramma genoemd.',
       },
       {
         stelling: 20,
         antw: 1,
-        toelichting: 'Niet af te leiden uit het verkiezingsprogramma.',
+        toelichting:
+          'Dit onderwerp wordt niet in het verkiezingsprogramma genoemd.',
       },
       {
         stelling: 21,
         antw: 1,
-        toelichting: 'Niet af te leiden uit het verkiezingsprogramma.',
+        toelichting:
+          'Dit onderwerp wordt niet in het verkiezingsprogramma genoemd.',
       },
       {
         stelling: 22,
@@ -1947,17 +1985,20 @@ const data = [
       {
         stelling: 24,
         antw: 1,
-        toelichting: 'Niet af te leiden uit het verkiezingsprogramma.',
+        toelichting:
+          'Dit onderwerp wordt niet in het verkiezingsprogramma genoemd.',
       },
       {
         stelling: 25,
         antw: 1,
-        toelichting: 'Niet af te leiden uit het verkiezingsprogramma.',
+        toelichting:
+          'Dit onderwerp wordt niet in het verkiezingsprogramma genoemd.',
       },
       {
         stelling: 26,
         antw: 1,
-        toelichting: 'Niet af te leiden uit het verkiezingsprogramma.',
+        toelichting:
+          'Dit onderwerp wordt niet in het verkiezingsprogramma genoemd.',
       },
       {
         stelling: 27,
@@ -1973,12 +2014,14 @@ const data = [
       {
         stelling: 29,
         antw: 1,
-        toelichting: 'Niet af te leiden uit het verkiezingsprogramma.',
+        toelichting:
+          'Dit onderwerp wordt niet in het verkiezingsprogramma genoemd.',
       },
       {
         stelling: 30,
         antw: 1,
-        toelichting: 'Niet af te leiden uit het verkiezingsprogramma.',
+        toelichting:
+          'Dit onderwerp wordt niet in het verkiezingsprogramma genoemd.',
       },
     ],
   },
