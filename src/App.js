@@ -12,6 +12,7 @@ import {
   Image,
 } from '@chakra-ui/react';
 import jvg from './jvg.png';
+import Uitleg from './uitleg'
 //TODO: Cijfertjes aan de bovenkant van de box groen/rood/neutraal zodat je terug kan gaan
 
 function App() {
@@ -66,9 +67,9 @@ function App() {
       <Box bg="#FFC03A" textAlign="center" fontSize="xl">
         <Grid minH="100vh" p={3}>
           <VStack spacing={12}>
-            <Image src={jvg}></Image>
+            <Image src={jvg} />
             <Box p={12} bg="white">
-              <HStack>
+              <HStack >
                 {stelling < 31
                   ? Stellingen.map((c, i) => (
                       <button onClick={() => setStelling(i + 1)}>
@@ -78,7 +79,8 @@ function App() {
                   : null}
               </HStack>
               <VStack spacing={12}>
-                <Text>
+                <Box>
+                  <Text fontSize="3xl">
                   <h1>
                     <strong>
                       {' '}
@@ -89,11 +91,11 @@ function App() {
                         ? 'Uitslag'
                         : `Stelling ${stelling}`}
                     </strong>
-                  </h1>{' '}
+                  </h1>{' '}</Text>
                   {/* inhoud */}
                   {stelling === 0
                     ? 'Wat denken politieke partijen over de zorg?'
-                    : Stellingen[stelling - 1]}
+                    : <Box><Text>{Stellingen[stelling - 1]}</Text></Box>}
                   {stelling > 30 && (
                     <div>
                       Dit zijn je resultaten voor de verkiezingen:
@@ -106,7 +108,7 @@ function App() {
                       </VStack>
                     </div>
                   )}
-                </Text>{' '}
+                </Box>{' '}
                 {/* Knoppen */}
                 {stelling === 0 && (
                   <Button onClick={() => setStelling(stelling + 1)}>
