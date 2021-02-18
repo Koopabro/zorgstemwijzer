@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/zorgstemwijzer/static/js/main.c7effeca.chunk.js",
-    "main.js.map": "/zorgstemwijzer/static/js/main.c7effeca.chunk.js.map",
+    "main.js": "/zorgstemwijzer/static/js/main.c6dd8492.chunk.js",
+    "main.js.map": "/zorgstemwijzer/static/js/main.c6dd8492.chunk.js.map",
     "runtime-main.js": "/zorgstemwijzer/static/js/runtime-main.4e96ee79.js",
     "runtime-main.js.map": "/zorgstemwijzer/static/js/runtime-main.4e96ee79.js.map",
     "static/js/2.8753c1a5.chunk.js": "/zorgstemwijzer/static/js/2.8753c1a5.chunk.js",
@@ -14,6 +14,6 @@
   "entrypoints": [
     "static/js/runtime-main.4e96ee79.js",
     "static/js/2.8753c1a5.chunk.js",
-    "static/js/main.c7effeca.chunk.js"
+    "static/js/main.c6dd8492.chunk.js"
   ]
 }
