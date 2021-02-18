@@ -14,6 +14,10 @@ import {
   AccordionButton,
   AccordionPanel,
   AccordionIcon,
+  CircularProgress,
+  CircularProgressLabel,
+  Grid,
+  GridItem,
 } from '@chakra-ui/react';
 import jvg from './jvg.png';
 import Stellingen from './Stelling';
@@ -64,18 +68,32 @@ function App() {
                   <Text fontSize="2xl">
                     Dit zijn je resultaten voor de Gezondheidswijzer.
                   </Text>
-                  <VStack>
+                  <Grid templateColumns="repeat(2, 1fr)" gap={10}>
                     {data.map(x => (
                       <Box key={x.partij}>
-                        <strong>{x.partij}</strong>:{' '}
-                        {matchParty(
-                          x.wijzer.map(y => y.antw),
-                          antwoord.map(z => z.antw)
-                        )}
-                        %
+                        <GridItem>
+                          <strong>{x.partij}</strong>:{' '}
+                        </GridItem>
+
+                        <GridItem>
+                          <CircularProgress
+                            value={matchParty(
+                              x.wijzer.map(y => y.antw),
+                              antwoord.map(z => z.antw)
+                            )}
+                          >
+                            <CircularProgressLabel>
+                              {matchParty(
+                                x.wijzer.map(y => y.antw),
+                                antwoord.map(z => z.antw)
+                              )}
+                              %
+                            </CircularProgressLabel>
+                          </CircularProgress>
+                        </GridItem>
                       </Box>
                     ))}
-                  </VStack>
+                  </Grid>
                 </>
               )}
 
@@ -98,16 +116,16 @@ function App() {
                 <Text fontSize="xs">
                   Voor deze kieswijzer is contact opgenomen met de partijen die
                   een zetel peilen, danwel op lokaal niveau een rol hebben
-                  gespeeld. Partijen X, Y en Z hebben schriftelijk hun standpunt
-                  op de stellingen toegelicht. Van de overige partijen hebben we
-                  gekeken wat er in het verkiezingsprogramma stond. De PVV heeft
-                  expliciet aangegeven niet meegenomen te willen worden in deze
-                  stemwijzer.{' '}
+                  gespeeld. CDA, CU, GL, JA21, PvdA, PvdD, SP en VVD hebben
+                  schriftelijk hun standpunt op de stellingen toegelicht. Van de
+                  overige partijen hebben we gekeken wat er in het
+                  verkiezingsprogramma stond. De PVV heeft expliciet aangegeven
+                  niet meegenomen te willen worden in deze stemwijzer.{' '}
                 </Text>
               )}
 
               {stelling < 31 && stelling > 0 && (
-                <Accordion>
+                <Accordion allowToggle>
                   <AccordionItem>
                     <AccordionButton>
                       Dit vinden de partijen: <AccordionIcon />
