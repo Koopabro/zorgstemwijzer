@@ -100,11 +100,14 @@ function App() {
                     <div>
                       Dit zijn je resultaten voor de verkiezingen:
                       <VStack>
-                        {data.map(x => (
+                        {data.map(x => { 
+                          console.log(x.wijzer)
+                          console.log(antwoord)
+                          return(
                           <Box>
-                            {x.partij}: {matchParty(x.wijzer, antwoord)}%
+                            {x.partij}: {matchParty(x.wijzer.map(y => y.antw), antwoord.map(z => z.antw))}%
                           </Box>
-                        ))}
+                        )})}
                       </VStack>
                     </div>
                   )}

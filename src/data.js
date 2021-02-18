@@ -4,166 +4,166 @@ const data = [
     wijzer: [
       {
         stelling: 1,
-        antw: '2',
+        antw: 2,
         toelichting: 'Geen uitleg',
       },
       {
         stelling: 2,
-        antw: '2',
+        antw: 2,
         toelichting:
           'Verkoop van tabaksproducten voorbehouden aan tabakswinkels en avondwinkels',
       },
       {
         stelling: 3,
-        antw: '0',
+        antw: 0,
         toelichting:
           'Wordt niets gezegd over niet meer toestaan. Wel willen ze roken ontmoedigen door rookruimtes op werkplekken en vliegvelden te sluiten.',
       },
       {
         stelling: 4,
-        antw: '1',
+        antw: 1,
         toelichting: 'Wordt niets over gezegd',
       },
       {
         stelling: 5,
-        antw: '1',
+        antw: 1,
         toelichting: 'Wordt niets over gezegd',
       },
       {
         stelling: 6,
-        antw: '1',
+        antw: 1,
         toelichting: 'Wordt niets over gezegd',
       },
       {
         stelling: 7,
-        antw: '2',
+        antw: 2,
         toelichting: 'Geen uitleg',
       },
       {
         stelling: 8,
-        antw: '1',
+        antw: 1,
         toelichting:
           'Wordt niets gezegd over tijden, alleen het volgende: reclame en advertenties voor alcohol worden ter bescherming van onze jongeren aan banden gelegd.',
       },
       {
         stelling: 9,
-        antw: '1',
+        antw: 1,
         toelichting: 'Wordt niets over gezegd',
       },
       {
         stelling: 10,
-        antw: '1',
+        antw: 1,
         toelichting:
           'Niet gratis, maar een tegemoetkoming in sportkosten invoeren in het kader van het bevorderen van een gezonde leefstijl',
       },
       {
         stelling: 11,
-        antw: '1',
+        antw: 1,
         toelichting:
           'Wordt niets gezegd over prioriteit voor ouderen, maar betaalbare volkshuisvesting voor iedereen is wel een doel van DENK',
       },
       {
         stelling: 12,
-        antw: '1',
+        antw: 1,
         toelichting:
           'Wordt gezegd dat DENK de ondersteuning van mantelzorgers vergroten, maar niet duidelijk of dit financieel is',
       },
       {
         stelling: 13,
-        antw: '1',
+        antw: 1,
         toelichting:
           'Wordt gezegd dat DENK vindt dat zorgprofessionals eerlijk betaald moeten krijgen',
       },
       {
         stelling: 14,
-        antw: '1',
+        antw: 1,
         toelichting:
           'Wordt gezegd dat salarissen in de top van de zorg moeten verlagen',
       },
       {
         stelling: 15,
-        antw: '2',
+        antw: 2,
         toelichting:
           'Medisch specialisten niet meer in maatschappen, maar in loondienst',
       },
       {
         stelling: 16,
-        antw: '1',
+        antw: 1,
         toelichting: 'Wordt niets over gezegd',
       },
       {
         stelling: 17,
-        antw: '1',
+        antw: 1,
         toelichting: 'DENK vindt dat het eigen risico af geschaft moet worden',
       },
       {
         stelling: 18,
-        antw: '1',
+        antw: 1,
         toelichting: 'Wordt niets over gezegd',
       },
       {
         stelling: 19,
-        antw: '2',
+        antw: 2,
         toelichting:
           'Wordt gezegd dat er extra belasting op farmaceutische bedrijven moet komen. DENK vindt de miljardenwinst die de big farma maakt over de ruggen van patiënten onverteerbaar',
       },
       {
         stelling: 20,
-        antw: '2',
+        antw: 2,
         toelichting:
           'Zorg kan betaalbaar blijven als we de grootste zorgafnemers preventief behandelen en de drempel voor primaire vroegtijdige zorg verlagen. Zorg zoals basale mondzorg (controle en preventie) moet vergoed worden uit het basispakket om complicaties en duurdere zorg te voorkomen',
       },
       {
         stelling: 21,
-        antw: '1',
+        antw: 1,
         toelichting: 'Wordt niets over gezegd',
       },
       {
         stelling: 22,
-        antw: '0',
+        antw: 0,
         toelichting:
           'Het coronabeleid dient altijd uit te gaan van vrijwilligheid',
       },
       {
         stelling: 23,
-        antw: '1',
+        antw: 1,
         toelichting: 'Wordt niets over gezegd',
       },
       {
         stelling: 24,
-        antw: '1',
+        antw: 1,
         toelichting: 'Wordt niets over gezegd',
       },
       {
         stelling: 25,
-        antw: '1',
+        antw: 1,
         toelichting: 'Wordt niets over gezegd',
       },
       {
         stelling: 26,
-        antw: '1',
+        antw: 1,
         toelichting: 'Wordt niets over gezegd',
       },
       {
         stelling: 27,
-        antw: '2',
+        antw: 2,
         toelichting:
           'Meer investeren in de ggz en verslavingszorg om wachtlijsten weg te werken. Wijkniveau wordt niet specifiek benoemd.',
       },
       {
         stelling: 28,
-        antw: '1',
+        antw: 1,
         toelichting: 'Wordt niets over gezegd',
       },
       {
         stelling: 29,
-        antw: '0',
+        antw: 0,
         toelichting:
           'Wordt niets over gezondheid gezegd in het hoofdstuk over klimaatbeleid',
       },
       {
         stelling: 30,
-        antw: '1',
+        antw: 1,
         toelichting: 'Wordt niets over gezegd',
       },
     ],
