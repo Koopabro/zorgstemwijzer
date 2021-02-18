@@ -47,7 +47,7 @@ function App() {
               {/* Voor wie dit leest, I'm sorry voor deze ongelovelijke warboel*/}
 
               {/* Headings*/}
-              {stelling === 0 && <Heading>Gezondheidsstemwijzer</Heading>}
+              {stelling === 0 && <Heading>Gezondheidswijzer</Heading>}
               {stelling < 31 && stelling > 0 && (
                 <Heading>Stelling {stelling}</Heading>
               )}
