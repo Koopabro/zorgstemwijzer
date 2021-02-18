@@ -13,7 +13,6 @@ import {
 } from '@chakra-ui/react';
 import jvg from './jvg.png';
 //TODO: Cijfertjes aan de bovenkant van de box groen/rood/neutraal zodat je terug kan gaan
-//TODO: Uitslag stemwijzer klopt niet.
 
 function App() {
   const Stellingen = [
@@ -55,7 +54,6 @@ function App() {
   const updateAntwoord = ant => {
     setAntwoord([...antwoord, { stelling: stelling, antw: ant }]);
     setStelling(stelling + 1);
-    console.log(antwoord);
   };
 
   const matchParty = (them, you) => {
@@ -100,14 +98,11 @@ function App() {
                     <div>
                       Dit zijn je resultaten voor de verkiezingen:
                       <VStack>
-                        {data.map(x => { 
-                          console.log(x.wijzer)
-                          console.log(antwoord)
-                          return(
+                        {data.map(x =>  
                           <Box>
                             {x.partij}: {matchParty(x.wijzer.map(y => y.antw), antwoord.map(z => z.antw))}%
                           </Box>
-                        )})}
+                        )}
                       </VStack>
                     </div>
                   )}
