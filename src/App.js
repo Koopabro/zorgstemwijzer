@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import data from './data';
 import Navigatie from './Nav';
+import StellingView from './StellingView';
+import AntwoordView from './AntwoordView';
 import { ChakraProvider, Box, VStack, Image } from '@chakra-ui/react';
 import jvg from './jvg.png';
 import Stellingen from './Stelling';
@@ -12,12 +13,7 @@ function App() {
 
   const updateAntwoord = ant => {
     setAntwoord([...antwoord, { stelling: stelling, antw: ant }]);
-    setStelling(stelling + 1);
-  };
-
-  const matchParty = (them, you) => {
-    const same = them.map((x, i) => x === you[i]).filter(x => x).length;
-    return Math.round((same / them.length) * 100);
+    stelling === 29 ? setStelling(0) : setStelling(stelling + 1);
   };
 
   return (
@@ -26,7 +22,20 @@ function App() {
         <VStack spacing={12}>
           <Image src={jvg} />
           <Box bg="white" w="3xl" maxW="100%" textAlign="center" p={8}>
-            <Navigatie stell={Stellingen} setStelling={setStelling} />
+            <Navigatie
+              stell={Stellingen}
+              setStelling={setStelling}
+              current={stelling}
+            />
+            {antwoord.length === 30 ? (
+              <AntwoordView mijnAntwoorden={antwoord} />
+            ) : (
+              <StellingView
+                Stellingen={Stellingen}
+                stelling={stelling}
+                updateAntwoord={updateAntwoord}
+              />
+            )}
           </Box>
         </VStack>
       </Box>
